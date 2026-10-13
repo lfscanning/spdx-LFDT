@@ -1,0 +1,939 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "type": "CreationInfo",
+            "@id": "_:CreationInfo0",
+            "created": "2026-10-13T17:42:50Z",
+            "createdBy": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd2",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd3"
+            ],
+            "createdUsing": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd1",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd0",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd5",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd4"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "type": "CreationInfo",
+            "@id": "_:CreationInfo1",
+            "comment": "This is a generated SPDX License object from the SPDX license list",
+            "created": "2026-09-16T00:00:00Z",
+            "createdBy": [
+                "https://spdx.org/licenses/creatoragent/3_29_0"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "type": "CreationInfo",
+            "@id": "_:CreationInfo2",
+            "created": "2026-10-13T17:42:50Z",
+            "createdBy": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd89",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd88"
+            ],
+            "createdUsing": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd86",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd87",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd90",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd91"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd10",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd9",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd11"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd11",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd12",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd12",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd13",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd14",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd9",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd15",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd16"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd16",
+            "software_downloadLocation": "https://github.com/besu-eth/besu-errorprone-checks/archive/c5e059d05f89ed731827f4f6c583881b9a5c890b.zip",
+            "software_packageUrl": "pkg:github/besu-eth/besu-errorprone-checks@c5e059d05f89ed731827f4f6c583881b9a5c890b",
+            "software_packageVersion": "c5e059d05f89ed731827f4f6c583881b9a5c890b",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd20",
+            "comment": "This package was added to the Trivy analysis for the besu-errorprone-checks by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu-errorprone-checks"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd17",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd16",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd18"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd18",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd19",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd19",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd2",
+            "creationInfo": "_:CreationInfo0",
+            "name": "aquasecurity"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd20",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd21",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd16",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd22",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd23"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd23",
+            "software_downloadLocation": "https://github.com/besu-eth/besu/archive/045e00792b89f1ed97f212cbfb300f4c0979cb17.zip",
+            "software_packageUrl": "pkg:github/besu-eth/besu@045e00792b89f1ed97f212cbfb300f4c0979cb17",
+            "software_packageVersion": "045e00792b89f1ed97f212cbfb300f4c0979cb17",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd27",
+            "comment": "This package was added to the Trivy analysis for the besu by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd24",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd23",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd25"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd25",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd26"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd26",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd27",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd28",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd23",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd29",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd30"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd3",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd30",
+            "software_downloadLocation": "https://github.com/besu-eth/homebrew-besu/archive/5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d.zip",
+            "software_packageUrl": "pkg:github/besu-eth/homebrew-besu@5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d",
+            "software_packageVersion": "5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd34",
+            "comment": "This package was added to the Trivy analysis for the homebrew-besu by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "homebrew-besu"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd31",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd30",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd32"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd32",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd33",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd33",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd34",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd35",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd30",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd36",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd37"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd37",
+            "software_downloadLocation": "https://github.com/besu-eth/besu-stateless/archive/682f14a5112a9056efe71c56c80f15a0ce8328e3.zip",
+            "software_packageUrl": "pkg:github/besu-eth/besu-stateless@682f14a5112a9056efe71c56c80f15a0ce8328e3",
+            "software_packageVersion": "682f14a5112a9056efe71c56c80f15a0ce8328e3",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd41",
+            "comment": "This package was added to the Trivy analysis for the besu-stateless by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu-stateless"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd38",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd37",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd39"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd39",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd40",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd40",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd41",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd42",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd37",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd43",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd44"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd44",
+            "software_downloadLocation": "https://github.com/besu-eth/besu-native/archive/9b050ae26284bf6fe49ed0534a4eb614ba17e67b.zip",
+            "software_packageUrl": "pkg:github/besu-eth/besu-native@9b050ae26284bf6fe49ed0534a4eb614ba17e67b",
+            "software_packageVersion": "9b050ae26284bf6fe49ed0534a4eb614ba17e67b",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd79",
+            "comment": "This package was added to the Trivy analysis for the besu-native by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu-native"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd45",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd44",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd46"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd46",
+            "software_downloadLocation": "NOASSERTION",
+            "software_packageVersion": "9b050ae26284bf6fe49ed0534a4eb614ba17e67b",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "application",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd74",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu-native/gnark/gnark-jni/go.mod"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd47",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd46",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "software_downloadLocation": "NOASSERTION",
+            "software_packageUrl": "pkg:golang/github.com/besu-eth/besu-native",
+            "software_sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "library",
+            "creationInfo": "_:CreationInfo0",
+            "name": "github.com/besu-eth/besu-native"
+        },
+        {
+            "type": "LifecycleScopedRelationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd49",
+            "scope": "build",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "dependsOn",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd50"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd50",
+            "software_downloadLocation": "NOASSERTION",
+            "software_homePage": "https://github.com/bits-and-blooms/bitset",
+            "software_packageUrl": "pkg:golang/github.com/bits-and-blooms/bitset@v1.24.0",
+            "software_packageVersion": "v1.24.0",
+            "software_sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "library",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd52",
+            "creationInfo": "_:CreationInfo0",
+            "description": "Package bitset implements bitsets, a mapping between non-negative integers and boolean values.",
+            "name": "github.com/bits-and-blooms/bitset"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd51",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd50",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://spdx.org/licenses/BSD-3-Clause"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd52",
+            "creationInfo": "_:CreationInfo0",
+            "name": "BitSet and Bloom filters libraries"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd53",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd50",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/BSD-3-Clause"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "LifecycleScopedRelationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd54",
+            "scope": "build",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "dependsOn",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd55"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd55",
+            "software_downloadLocation": "NOASSERTION",
+            "software_homePage": "https://github.com/consensys/gnark-crypto",
+            "software_packageUrl": "pkg:golang/github.com/consensys/gnark-crypto@v0.19.2",
+            "software_packageVersion": "v0.19.2",
+            "software_sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "library",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd57",
+            "creationInfo": "_:CreationInfo0",
+            "name": "github.com/consensys/gnark-crypto"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd56",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd55",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd57",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Consensys Incorporated"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd58",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd55",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "LifecycleScopedRelationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd59",
+            "scope": "build",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "dependsOn",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd60"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd60",
+            "software_downloadLocation": "NOASSERTION",
+            "software_homePage": "https://cs.opensource.google/go/x/sys",
+            "software_packageUrl": "pkg:golang/golang.org/x/sys@v0.45.0",
+            "software_packageVersion": "v0.45.0",
+            "software_sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "library",
+            "creationInfo": "_:CreationInfo0",
+            "name": "golang.org/x/sys"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd61",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd60",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd62"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd62",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/BSD-3-Clause",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd63",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd64"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_CustomLicense",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd63",
+            "simplelicensing_licenseText": "[Initialized with license Parser.  The actual license text is not available]",
+            "comment": "",
+            "creationInfo": "_:CreationInfo0",
+            "name": ""
+        },
+        {
+            "type": "expandedlicensing_CustomLicense",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd64",
+            "simplelicensing_licenseText": "[Initialized with license Parser.  The actual license text is not available]",
+            "comment": "",
+            "creationInfo": "_:CreationInfo0",
+            "name": ""
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd65",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd60",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd66"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd66",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/BSD-3-Clause",
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd64"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "LifecycleScopedRelationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd67",
+            "scope": "build",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "dependsOn",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd68"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd68",
+            "software_downloadLocation": "NOASSERTION",
+            "software_homePage": "https://cs.opensource.google/go/x/crypto",
+            "software_packageUrl": "pkg:golang/golang.org/x/crypto@v0.52.0",
+            "software_packageVersion": "v0.52.0",
+            "software_sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "library",
+            "creationInfo": "_:CreationInfo0",
+            "name": "golang.org/x/crypto"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd69",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd68",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "software_downloadLocation": "NOASSERTION",
+            "software_packageVersion": "2026-09",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd84",
+            "creationInfo": "_:CreationInfo0",
+            "name": "LFDT.besu-eth"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd70",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd68",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/BSD-3-Clause"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd71",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd72",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd48",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd73",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd46",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd74",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd75",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd46",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "expandedlicensing_NoneLicense"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd76",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd44",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd77"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd77",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd78",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd78",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd79",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd8",
+            "completeness": "noAssertion",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "contains",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd9"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd80",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd44",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd81",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "hasConcludedLicense",
+            "to": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd82"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd82",
+            "expandedlicensing_member": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd83",
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "expandedlicensing_ConjunctiveLicenseSet",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd83",
+            "expandedlicensing_member": [
+                "http://spdx.org/licenses/Apache-2.0",
+                "http://spdx.org/licenses/CC-BY-4.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd84",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Linux Foundation Project LFDT"
+        },
+        {
+            "type": "Relationship",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd85",
+            "from": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7",
+            "relationshipType": "hasDeclaredLicense",
+            "to": [
+                "http://spdx.org/licenses/Apache-2.0"
+            ],
+            "creationInfo": "_:CreationInfo0"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd88",
+            "creationInfo": "_:CreationInfo2",
+            "name": "aquasecurity"
+        },
+        {
+            "type": "Organization",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd89",
+            "creationInfo": "_:CreationInfo2",
+            "name": "Linux Foundation"
+        },
+        {
+            "type": "software_Package",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd9",
+            "software_downloadLocation": "https://github.com/besu-eth/besu-hsm-plugin/archive/b0f0fa1a108db8d9cd275195e7425c5b7fc959af.zip",
+            "software_packageUrl": "pkg:github/besu-eth/besu-hsm-plugin@b0f0fa1a108db8d9cd275195e7425c5b7fc959af",
+            "software_packageVersion": "b0f0fa1a108db8d9cd275195e7425c5b7fc959af",
+            "software_sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "software_copyrightText": "",
+            "software_primaryPurpose": "source",
+            "suppliedBy": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd13",
+            "comment": "This package was added to the Trivy analysis for the besu-hsm-plugin by the Scaffold tool SBOM augmentation",
+            "creationInfo": "_:CreationInfo0",
+            "name": "besu-hsm-plugin"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd0",
+            "creationInfo": "_:CreationInfo0",
+            "name": "protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd1",
+            "creationInfo": "_:CreationInfo0",
+            "name": "trivy-dev"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd4",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Scaffold"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd5",
+            "creationInfo": "_:CreationInfo0",
+            "name": "Parlay"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd86",
+            "creationInfo": "_:CreationInfo2",
+            "name": "protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd87",
+            "creationInfo": "_:CreationInfo2",
+            "name": "trivy-dev"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd90",
+            "creationInfo": "_:CreationInfo2",
+            "name": "Scaffold"
+        },
+        {
+            "type": "Tool",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/additionalToolSPDXRef-gnrtd91",
+            "creationInfo": "_:CreationInfo2",
+            "name": "Parlay"
+        },
+        {
+            "type": "SpdxDocument",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/document0",
+            "dataLicense": "http://spdx.org/licenses/CC0-1.0",
+            "rootElement": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/sbom"
+            ],
+            "creationInfo": "_:CreationInfo2",
+            "name": "/tmp/tmppnt8ll9b/code"
+        },
+        {
+            "type": "software_Sbom",
+            "spdxId": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/sbom",
+            "software_sbomType": [
+                "source"
+            ],
+            "element": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7"
+            ],
+            "rootElement": [
+                "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f-specv3/SPDXRef-gnrtd7"
+            ],
+            "creationInfo": "_:CreationInfo2"
+        },
+        {
+            "type": "Agent",
+            "spdxId": "https://spdx.org/licenses/creatoragent/3_29_0",
+            "creationInfo": "_:CreationInfo1",
+            "description": "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/)",
+            "name": "SPDX Legal Team"
+        }
+    ]
+}
