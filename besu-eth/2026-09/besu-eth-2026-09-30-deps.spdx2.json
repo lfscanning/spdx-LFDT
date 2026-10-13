@@ -1,0 +1,326 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2026-10-13T17:42:50Z",
+        "creators": [
+            "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
+            "Tool: trivy-dev",
+            "Organization: aquasecurity",
+            "Organization: Linux Foundation",
+            "Tool: Scaffold",
+            "Tool: Parlay"
+        ],
+        "licenseListVersion": "3.20"
+    },
+    "dataLicense": "CC0-1.0",
+    "name": "/tmp/tmppnt8ll9b/code",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmppnt8ll9b/code-0e983448-4f3e-4779-af05-a601077aa83f",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Application-64e635e325db0c90",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "besu-native/gnark/gnark-jni/go.mod",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "9b050ae26284bf6fe49ed0534a4eb614ba17e67b"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/besu-eth/besu-native",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "NONE",
+            "name": "github.com/besu-eth/besu-native",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7a88ed1722e710b1",
+            "description": "Package bitset implements bitsets, a mapping between non-negative integers and boolean values.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/bits-and-blooms/bitset@v1.24.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/bits-and-blooms/bitset",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "github.com/bits-and-blooms/bitset",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "supplier": "Organization: BitSet and Bloom filters libraries",
+            "versionInfo": "v1.24.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4458a0633d14733f",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/github.com/consensys/gnark-crypto@v0.19.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/consensys/gnark-crypto",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NONE",
+            "name": "github.com/consensys/gnark-crypto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "supplier": "Organization: Consensys Incorporated",
+            "versionInfo": "v0.19.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4beab217fd3fe697",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.52.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/crypto",
+            "licenseConcluded": "NONE",
+            "licenseDeclared": "BSD-3-Clause",
+            "name": "golang.org/x/crypto",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "versionInfo": "v0.52.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-53c19ea355362b61",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:golang/golang.org/x/sys@v0.45.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://cs.opensource.google/go/x/sys",
+            "licenseConcluded": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang AND LicenseRef-scancode-proprietary-license",
+            "licenseDeclared": "BSD-3-Clause AND LicenseRef-scancode-google-patent-license-golang",
+            "name": "golang.org/x/sys",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: besu-native/gnark/gnark-jni/go.mod",
+            "versionInfo": "v0.45.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Filesystem-74896383d7f27d82",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "LFDT.besu-eth",
+            "primaryPackagePurpose": "SOURCE",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "2026-09"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-besu",
+            "comment": "This package was added to the Trivy analysis for the besu by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/besu/archive/045e00792b89f1ed97f212cbfb300f4c0979cb17.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/besu@045e00792b89f1ed97f212cbfb300f4c0979cb17",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "besu",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "045e00792b89f1ed97f212cbfb300f4c0979cb17"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-besu-errorprone-checks",
+            "comment": "This package was added to the Trivy analysis for the besu-errorprone-checks by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/besu-errorprone-checks/archive/c5e059d05f89ed731827f4f6c583881b9a5c890b.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/besu-errorprone-checks@c5e059d05f89ed731827f4f6c583881b9a5c890b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "besu-errorprone-checks",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "c5e059d05f89ed731827f4f6c583881b9a5c890b"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-besu-hsm-plugin",
+            "comment": "This package was added to the Trivy analysis for the besu-hsm-plugin by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/besu-hsm-plugin/archive/b0f0fa1a108db8d9cd275195e7425c5b7fc959af.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/besu-hsm-plugin@b0f0fa1a108db8d9cd275195e7425c5b7fc959af",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "besu-hsm-plugin",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "b0f0fa1a108db8d9cd275195e7425c5b7fc959af"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-besu-native",
+            "comment": "This package was added to the Trivy analysis for the besu-native by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/besu-native/archive/9b050ae26284bf6fe49ed0534a4eb614ba17e67b.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/besu-native@9b050ae26284bf6fe49ed0534a4eb614ba17e67b",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "besu-native",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "9b050ae26284bf6fe49ed0534a4eb614ba17e67b"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-besu-stateless",
+            "comment": "This package was added to the Trivy analysis for the besu-stateless by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/besu-stateless/archive/682f14a5112a9056efe71c56c80f15a0ce8328e3.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/besu-stateless@682f14a5112a9056efe71c56c80f15a0ce8328e3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "besu-stateless",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "682f14a5112a9056efe71c56c80f15a0ce8328e3"
+        },
+        {
+            "SPDXID": "SPDXRef-LFDT-besu-eth-homebrew-besu",
+            "comment": "This package was added to the Trivy analysis for the homebrew-besu by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/besu-eth/homebrew-besu/archive/5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/besu-eth/homebrew-besu@5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0)",
+            "licenseDeclared": "Apache-2.0",
+            "name": "homebrew-besu",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project LFDT",
+            "supplier": "Organization: Linux Foundation Project LFDT",
+            "versionInfo": "5663b2f7ed11687fc3ab0dbcc61b9e1ccb27c24d"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-Application-64e635e325db0c90",
+            "relatedSpdxElement": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-LFDT-besu-eth-besu-native",
+            "relatedSpdxElement": "SPDXRef-Application-64e635e325db0c90",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "relatedSpdxElement": "SPDXRef-Package-4458a0633d14733f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "relatedSpdxElement": "SPDXRef-Package-4beab217fd3fe697",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "relatedSpdxElement": "SPDXRef-Package-53c19ea355362b61",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-f2a8ccf6947c6bd4",
+            "relatedSpdxElement": "SPDXRef-Package-7a88ed1722e710b1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-besu",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-besu-errorprone-checks",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-besu-hsm-plugin",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-besu-native",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-besu-stateless",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-74896383d7f27d82",
+            "relatedSpdxElement": "SPDXRef-LFDT-besu-eth-homebrew-besu",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
