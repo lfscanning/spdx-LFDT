@@ -1,7 +1,7 @@
 {
     "SPDXID": "SPDXRef-DOCUMENT",
     "creationInfo": {
-        "created": "2026-10-13T14:30:50Z",
+        "created": "2026-11-05T03:37:13Z",
         "creators": [
             "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
             "Tool: trivy-dev",
@@ -16,7 +16,7 @@
     "hasExtractedLicensingInfos": [
         {
             "extractedText": "CC-BY-3.0 AND Swift-exception AND u-boot-exception-2.0 AND WxWindows-exception-3.1",
-            "licenseId": "LicenseRef-fixed-0x3457becd407e98b3"
+            "licenseId": "LicenseRef-fixed-0x1ae88e3b9eafc1da"
         },
         {
             "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
@@ -28,9 +28,9 @@
             "licenseId": "LicenseRef-Google-Patents-Notice"
         }
     ],
-    "name": "/tmp/tmprwoqd_zm/code",
+    "name": "/tmp/tmpgil5a2ji/code",
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmprwoqd_zm/code-cdf941fb-4066-4533-9bb7-8d56d2d678d2",
+    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmpgil5a2ji/code-b76c13ff-5e82-4f97-8fd2-a754b22f71a7",
     "packages": [
         {
             "SPDXID": "SPDXRef-Application-58cb0a02ddb0d9fd",
@@ -6100,7 +6100,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/web-platform-dx/baseline-browser-mapping#readme",
             "licenseConcluded": "Apache-2.0",
-            "licenseDeclared": "NONE",
+            "licenseDeclared": "Apache-2.0",
             "name": "baseline-browser-mapping",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
@@ -6961,7 +6961,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/browserslist/caniuse-lite#readme",
             "licenseConcluded": "CC-BY-4.0",
-            "licenseDeclared": "NONE",
+            "licenseDeclared": "CC-BY-4.0",
             "name": "caniuse-lite",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
@@ -10519,8 +10519,8 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/Kilian/electron-to-chromium#readme",
-            "licenseConcluded": "ISC",
-            "licenseDeclared": "NONE",
+            "licenseConcluded": "ISC AND JSON AND ISC",
+            "licenseDeclared": "ISC",
             "name": "electron-to-chromium",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
@@ -10671,6 +10671,7 @@
             "name": "enquire-js",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
+            "supplier": "Organization: jljsj",
             "versionInfo": "0.2.1"
         },
         {
@@ -12175,7 +12176,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/isaacs/node-glob#readme",
             "licenseConcluded": "CC-BY-SA-4.0 AND ISC",
-            "licenseDeclared": "CC-BY-SA-4.0 AND ISC",
+            "licenseDeclared": "ISC",
             "name": "glob",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
@@ -16710,7 +16711,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/chicoxyzzy/node-releases#readme",
             "licenseConcluded": "MIT",
-            "licenseDeclared": "NONE",
+            "licenseDeclared": "MIT",
             "name": "node-releases",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
@@ -18035,6 +18036,7 @@
             "name": "pinkie",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: cello/src/dashboard/yarn.lock",
+            "supplier": "Organization: Vsevolod Strukchinsky",
             "versionInfo": "2.0.4"
         },
         {
@@ -22873,7 +22875,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/kemitchell/spdx-exceptions.json#readme",
-            "licenseConcluded": "LicenseRef-fixed-0x3457becd407e98b3",
+            "licenseConcluded": "LicenseRef-fixed-0x1ae88e3b9eafc1da",
             "licenseDeclared": "CC-BY-3.0",
             "name": "spdx-exceptions",
             "primaryPackagePurpose": "LIBRARY",
@@ -25541,7 +25543,7 @@
             "versionInfo": "7.0.0"
         },
         {
-            "SPDXID": "SPDXRef-Filesystem-ff3f61233d14a83c",
+            "SPDXID": "SPDXRef-Filesystem-453c802d93d21236",
             "downloadLocation": "NOASSERTION",
             "filesAnalyzed": false,
             "licenseConcluded": "Apache-2.0 AND CC-BY-4.0 AND (Apache-2.0 AND MIT) AND BSD-3-Clause AND ISC AND MIT AND LicenseRef-Google-Patents-Notice",
@@ -37750,11 +37752,11 @@
         },
         {
             "spdxElementId": "SPDXRef-DOCUMENT",
-            "relatedSpdxElement": "SPDXRef-Filesystem-ff3f61233d14a83c",
+            "relatedSpdxElement": "SPDXRef-Filesystem-453c802d93d21236",
             "relationshipType": "DESCRIBES"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-ff3f61233d14a83c",
+            "spdxElementId": "SPDXRef-Filesystem-453c802d93d21236",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-cello-cello",
             "relationshipType": "CONTAINS"
         }
