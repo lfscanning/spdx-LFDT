@@ -1,7 +1,7 @@
 {
     "SPDXID": "SPDXRef-DOCUMENT",
     "creationInfo": {
-        "created": "2026-10-13T17:54:57Z",
+        "created": "2026-11-05T08:28:01Z",
         "creators": [
             "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
             "Tool: trivy-dev",
@@ -18,35 +18,35 @@
     "hasExtractedLicensingInfos": [
         {
             "extractedText": "LicenseRef-scancode-generic-exception AND MIT AND MIT OR Unlicense AND Unlicense",
-            "licenseId": "LicenseRef-fixed-0x3c2e104f90534b65"
+            "licenseId": "LicenseRef-fixed-0x4aa2ae452ca6b2c0"
         },
         {
             "extractedText": "MIT,Apache-2.0",
-            "licenseId": "LicenseRef-fixed-0x228f7909ddb3d37a"
+            "licenseId": "LicenseRef-fixed-0x6068414dd218e682"
         },
         {
             "extractedText": "(Apache-2.0 AND LLVM-exception) AND ((Apache-2.0 OR MIT) AND LLVM-exception) AND Apache-2.0 AND Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT AND MIT",
-            "licenseId": "LicenseRef-fixed-0x3bcb7d0cc291c23d"
+            "licenseId": "LicenseRef-fixed-0x76e344ef89109fce"
         },
         {
             "extractedText": "(GPL-2.0-only AND GPL-1.0-or-later AND LicenseRef-scancode-public-domain) AND GPL-2.0-only AND (GPL-2.0-only WITH GCC-exception-2.0 AND GPL-2.0-only AND Zlib AND ISC AND BSD-3-Clause AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-2.1-only AND MIT) AND (MIT AND BSD-3-Clause) AND SSLeay-standalone AND (OpenSSL-standalone AND LicenseRef-scancode-public-domain) AND BSD-3-Clause AND BSD-2-Clause AND (GPL-2.0-only WITH GCC-exception-2.0 AND GPL-2.0-only AND Zlib AND ISC AND LGPL-2.0-or-later) AND (LGPL-2.1-or-later AND LGPL-2.0-or-later AND LGPL-2.1-only AND MIT) AND MIT AND (LGPL-2.1-or-later AND GPL-2.0-only) AND BSD-3-Clause AND BSD-2-Clause AND (LGPL-2.1-or-later AND GPL-2.0-only) AND MIT AND Apache-2.0 AND BSD-3-Clause AND CC0-1.0 AND GPL-1.0-or-later AND GPL-2.0-only AND SSLeay-standalone AND OpenSSL-standalone AND LicenseRef-scancode-openssl-nokia-psk-contribution AND GPL-2.0-only WITH GCC-exception-2.0 AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-2.1-or-later AND BSD-3-Clause AND LGPL-2.1-or-later AND GPL-2.0-only AND LicenseRef-scancode-pcre AND (BSD-3-Clause AND LicenseRef-scancode-public-domain) AND BSD-3-Clause AND LicenseRef-scancode-pcre AND BSD-3-Clause AND LicenseRef-scancode-public-domain AND MIT AND MIT OR Apache-2.0 AND Unlicense AND Zlib AND Zlib AND LicenseRef-scancode-warranty-disclaimer",
-            "licenseId": "LicenseRef-fixed-0x6505cbd14fd05e0d"
+            "licenseId": "LicenseRef-fixed-0x5e81b9a4f0526c9b"
         },
         {
             "extractedText": "(Apache-2.0 AND LLVM-exception) AND ((Apache-2.0 OR MIT) AND LLVM-exception) AND Apache-2.0 AND Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT AND MIT AND MIT OR Apache-2.0",
-            "licenseId": "LicenseRef-fixed-0x36550497961d3140"
+            "licenseId": "LicenseRef-fixed-0x7608884399c4c99b"
         },
         {
             "extractedText": "(Apache-2.0 AND LLVM-exception) AND (Apache-2.0 AND LLVM-exception AND MIT) AND Apache-2.0 AND Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT AND MIT AND MIT AND (MIT OR Apache-2.0)",
-            "licenseId": "LicenseRef-fixed-0x63c2d9afc247c34c"
+            "licenseId": "LicenseRef-fixed-0x2260db6a9210f93a"
         },
         {
             "extractedText": "Apache 2.0",
-            "licenseId": "LicenseRef-fixed-0x595ae334f4ed961e"
+            "licenseId": "LicenseRef-fixed-0x66a64be2fcdbda68"
         },
         {
             "extractedText": "(Apache-2.0 WITH LLVM-exception AND LicenseRef-scancode-generic-cla) AND Apache-2.0 AND MIT AND LLVM-exception AND Apache-2.0 AND Apache-2.0 AND Apache-2.0 WITH LLVM-exception AND Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT AND MIT",
-            "licenseId": "LicenseRef-fixed-0xb81627e72d96773"
+            "licenseId": "LicenseRef-fixed-0x58a896fb9cb08a8b"
         },
         {
             "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
@@ -88,9 +88,9 @@
             "name": "UnclassifiedLicense"
         }
     ],
-    "name": "/tmp/tmpnx2oy5b2/code",
+    "name": "/tmp/tmp869o1ffi/code",
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/hyperledger-indy/2026-09/LFDT-hyperledger-indy-full/35c4c0fc-cb74-4f77-875f-84aecd13cb88",
+    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/hyperledger-indy/2026-09/LFDT-hyperledger-indy-full/016fb2c0-cc6c-4725-bc25-ffef0b0d48d2",
     "packages": [
         {
             "SPDXID": "SPDXRef-Application-5b974f1033a538ca",
@@ -2454,7 +2454,7 @@
             "versionInfo": "4.11.6"
         },
         {
-            "SPDXID": "SPDXRef-Package-fbc481b25f59f4d4",
+            "SPDXID": "SPDXRef-Package-ea796ae1f1b9d629",
             "description": "TypeScript definitions for bn.js",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
@@ -2613,6 +2613,27 @@
             "versionInfo": "5.1.1"
         },
         {
+            "SPDXID": "SPDXRef-Package-3f01a18273d6603d",
+            "description": "TypeScript definitions for node",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:npm/%40types/node@26.6.6",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "@types/node",
+            "primaryPackagePurpose": "LIBRARY",
+            "sourceInfo": "package found in: indy-besu/network/tools/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
+            "versionInfo": "26.6.6"
+        },
+        {
             "SPDXID": "SPDXRef-Package-712cdb53d0f63866",
             "description": "TypeScript definitions for node",
             "downloadLocation": "NOASSERTION",
@@ -2632,27 +2653,6 @@
             "sourceInfo": "package found in: indy-besu/vdr/wasm/demo/node/package-lock.json",
             "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "16.18.126"
-        },
-        {
-            "SPDXID": "SPDXRef-Package-8c662d829933ae1f",
-            "description": "TypeScript definitions for node",
-            "downloadLocation": "NOASSERTION",
-            "externalRefs": [
-                {
-                    "referenceCategory": "PACKAGE_MANAGER",
-                    "referenceLocator": "pkg:npm/%40types/node@26.6.5",
-                    "referenceType": "purl"
-                }
-            ],
-            "filesAnalyzed": false,
-            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
-            "licenseConcluded": "MIT",
-            "licenseDeclared": "MIT",
-            "name": "@types/node",
-            "primaryPackagePurpose": "LIBRARY",
-            "sourceInfo": "package found in: indy-besu/network/tools/package-lock.json",
-            "supplier": "Organization: DefinitelyTyped",
-            "versionInfo": "26.6.5"
         },
         {
             "SPDXID": "SPDXRef-Package-94ff122ad387cc5d",
@@ -2781,7 +2781,7 @@
             "versionInfo": "3.1.0"
         },
         {
-            "SPDXID": "SPDXRef-Package-5b442bfab78af6f",
+            "SPDXID": "SPDXRef-Package-d69659c191350313",
             "description": "TypeScript definitions for pbkdf2",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
@@ -2845,7 +2845,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-e7f893a3cc564fda",
-            "description": "TypeScript definitions for responselike",
+            "description": "Stub TypeScript definitions entry for responselike, which provides its own types definitions",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2855,7 +2855,6 @@
                 }
             ],
             "filesAnalyzed": false,
-            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/responselike",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/responselike",
@@ -2886,7 +2885,7 @@
             "versionInfo": "4.0.3"
         },
         {
-            "SPDXID": "SPDXRef-Package-b5c2f95ebf36138b",
+            "SPDXID": "SPDXRef-Package-a667885319cbb316",
             "description": "TypeScript definitions for secp256k1",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
@@ -3267,7 +3266,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/BurntSushi/aho-corasick",
-            "licenseConcluded": "LicenseRef-fixed-0x3c2e104f90534b65",
+            "licenseConcluded": "LicenseRef-fixed-0x4aa2ae452ca6b2c0",
             "licenseDeclared": "Unlicense OR MIT",
             "name": "aho-corasick",
             "primaryPackagePurpose": "LIBRARY",
@@ -3309,7 +3308,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/BurntSushi/aho-corasick",
-            "licenseConcluded": "LicenseRef-fixed-0x3c2e104f90534b65",
+            "licenseConcluded": "LicenseRef-fixed-0x4aa2ae452ca6b2c0",
             "licenseDeclared": "Unlicense OR MIT",
             "name": "aho-corasick",
             "primaryPackagePurpose": "LIBRARY",
@@ -3330,7 +3329,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/BurntSushi/aho-corasick",
-            "licenseConcluded": "LicenseRef-fixed-0x3c2e104f90534b65",
+            "licenseConcluded": "LicenseRef-fixed-0x4aa2ae452ca6b2c0",
             "licenseDeclared": "Unlicense OR MIT",
             "name": "aho-corasick",
             "primaryPackagePurpose": "LIBRARY",
@@ -3351,7 +3350,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/BurntSushi/aho-corasick",
-            "licenseConcluded": "LicenseRef-fixed-0x3c2e104f90534b65",
+            "licenseConcluded": "LicenseRef-fixed-0x4aa2ae452ca6b2c0",
             "licenseDeclared": "Unlicense OR MIT",
             "name": "aho-corasick",
             "primaryPackagePurpose": "LIBRARY",
@@ -4457,7 +4456,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "aries-askar",
             "primaryPackagePurpose": "LIBRARY",
@@ -4894,7 +4893,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "askar-crypto",
             "primaryPackagePurpose": "LIBRARY",
@@ -4914,7 +4913,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "askar-storage",
             "primaryPackagePurpose": "LIBRARY",
@@ -6097,7 +6096,6 @@
                 }
             ],
             "filesAnalyzed": false,
-            "homepage": "https://github.com/rust-lang/backtrace-rs",
             "licenseConcluded": "(Apache-2.0 AND Apache-2.0) OR (MIT AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "backtrace",
@@ -6118,7 +6116,6 @@
                 }
             ],
             "filesAnalyzed": false,
-            "homepage": "https://github.com/rust-lang/backtrace-rs",
             "licenseConcluded": "(Apache-2.0 AND Apache-2.0) OR (MIT AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "backtrace",
@@ -10819,7 +10816,7 @@
             "name": "convert_case",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-besu/vdr/Cargo.lock",
-            "supplier": "Organization: Dave Purdum",
+            "supplier": "Organization: rutrum",
             "versionInfo": "0.4.0"
         },
         {
@@ -11713,7 +11710,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-e3676f494c4210af",
-            "description": "Pure Rust implementation of a big integer library which has been designed from\nthe ground-up for use in cryptographic applications. Provides constant-time,\nno_std-friendly implementations of modern formulas using const generics.\n",
+            "description": "Pure Rust implementation of a big integer library which has been designed from the ground-up for use\nin cryptographic applications. Provides constant-time, `no_std`/`no_alloc`-friendly implementations\nof modern formulas using const generics. Also includes optional support for heap-backed integers.\n",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -11733,7 +11730,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-e4416ad503bb2be6",
-            "description": "Pure Rust implementation of a big integer library which has been designed from\nthe ground-up for use in cryptographic applications. Provides constant-time,\nno_std-friendly implementations of modern formulas using const generics.\n",
+            "description": "Pure Rust implementation of a big integer library which has been designed from the ground-up for use\nin cryptographic applications. Provides constant-time, `no_std`/`no_alloc`-friendly implementations\nof modern formulas using const generics. Also includes optional support for heap-backed integers.\n",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -12536,6 +12533,7 @@
             "name": "default-compare",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-did-method/package-lock.json",
+            "supplier": "Organization: Brian Woodward",
             "versionInfo": "1.0.0"
         },
         {
@@ -19225,7 +19223,7 @@
             "versionInfo": "v1.1.1"
         },
         {
-            "SPDXID": "SPDXRef-Package-643e0fc9d43ba8ff",
+            "SPDXID": "SPDXRef-Package-2a9c77f17cf18a7c",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -19242,7 +19240,7 @@
             "sourceInfo": "package found in: indy-shared-rs/wrappers/golang/indy-credx/go.mod"
         },
         {
-            "SPDXID": "SPDXRef-Package-44bb553d2c74049d",
+            "SPDXID": "SPDXRef-Package-40717d7d1b666383",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -19257,7 +19255,8 @@
             "licenseDeclared": "NONE",
             "name": "github.com/hyperledger-indy/indy-vdr/wrappers/golang",
             "primaryPackagePurpose": "LIBRARY",
-            "sourceInfo": "package found in: indy-vdr/wrappers/golang/go.mod"
+            "sourceInfo": "package found in: indy-vdr/wrappers/golang/go.mod",
+            "supplier": "Organization: Hyperledger Indy"
         },
         {
             "SPDXID": "SPDXRef-Package-e035600152de3644",
@@ -19562,7 +19561,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/isaacs/node-glob#readme",
             "licenseConcluded": "CC-BY-SA-4.0 AND ISC AND ISC AND CC-BY-SA-4.0 AND MIT AND ISC",
-            "licenseDeclared": "CC-BY-SA-4.0 AND ISC",
+            "licenseDeclared": "ISC",
             "name": "glob",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-did-method/package-lock.json",
@@ -19583,7 +19582,7 @@
             "filesAnalyzed": false,
             "homepage": "https://github.com/isaacs/node-glob#readme",
             "licenseConcluded": "CC-BY-SA-4.0 AND ISC AND CC-BY-SA-4.0 AND MIT AND ISC",
-            "licenseDeclared": "CC-BY-SA-4.0 AND ISC",
+            "licenseDeclared": "ISC",
             "name": "glob",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-besu/smart_contracts/yarn.lock",
@@ -23361,7 +23360,7 @@
             "versionInfo": "0.4.6"
         },
         {
-            "SPDXID": "SPDXRef-Package-2de5ab9cc5b5efe5",
+            "SPDXID": "SPDXRef-Package-2316b0691bd629b1",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -23738,7 +23737,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "io-lifetimes",
             "primaryPackagePurpose": "LIBRARY",
@@ -26494,7 +26493,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x6505cbd14fd05e0d",
+            "licenseConcluded": "LicenseRef-fixed-0x5e81b9a4f0526c9b",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "libgit2-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26593,7 +26592,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "libz-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26717,7 +26716,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26737,7 +26736,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26757,7 +26756,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26777,7 +26776,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26797,7 +26796,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26817,7 +26816,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26837,7 +26836,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -26857,7 +26856,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x3bcb7d0cc291c23d",
+            "licenseConcluded": "LicenseRef-fixed-0x76e344ef89109fce",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "linux-raw-sys",
             "primaryPackagePurpose": "LIBRARY",
@@ -33164,6 +33163,7 @@
             "name": "pinkie",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-did-method/package-lock.json",
+            "supplier": "Organization: Vsevolod Strukchinsky",
             "versionInfo": "2.0.4"
         },
         {
@@ -37251,7 +37251,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x36550497961d3140",
+            "licenseConcluded": "LicenseRef-fixed-0x7608884399c4c99b",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37271,7 +37271,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x36550497961d3140",
+            "licenseConcluded": "LicenseRef-fixed-0x7608884399c4c99b",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37291,7 +37291,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x63c2d9afc247c34c",
+            "licenseConcluded": "LicenseRef-fixed-0x2260db6a9210f93a",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37331,7 +37331,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x63c2d9afc247c34c",
+            "licenseConcluded": "LicenseRef-fixed-0x2260db6a9210f93a",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37351,7 +37351,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x36550497961d3140",
+            "licenseConcluded": "LicenseRef-fixed-0x7608884399c4c99b",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37371,7 +37371,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x36550497961d3140",
+            "licenseConcluded": "LicenseRef-fixed-0x7608884399c4c99b",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -37391,7 +37391,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x63c2d9afc247c34c",
+            "licenseConcluded": "LicenseRef-fixed-0x2260db6a9210f93a",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "rustix",
             "primaryPackagePurpose": "LIBRARY",
@@ -39035,7 +39035,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "serde-json-core",
             "primaryPackagePurpose": "LIBRARY",
@@ -39424,7 +39424,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "serde_json",
             "primaryPackagePurpose": "LIBRARY",
@@ -40502,6 +40502,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://smallvec.rs",
             "licenseConcluded": "(Apache-2.0 AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "smallvec",
@@ -40522,6 +40523,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://smallvec.rs",
             "licenseConcluded": "(Apache-2.0 AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "smallvec",
@@ -40542,6 +40544,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://smallvec.rs",
             "licenseConcluded": "(Apache-2.0 AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "smallvec",
@@ -40562,6 +40565,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://smallvec.rs",
             "licenseConcluded": "(Apache-2.0 AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "smallvec",
@@ -40582,6 +40586,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://smallvec.rs",
             "licenseConcluded": "(Apache-2.0 AND MIT AND MIT) OR Apache-2.0",
             "licenseDeclared": "MIT OR Apache-2.0",
             "name": "smallvec",
@@ -41168,7 +41173,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/decentralized-identity/spec-up#readme",
-            "licenseConcluded": "LicenseRef-fixed-0x595ae334f4ed961e",
+            "licenseConcluded": "LicenseRef-fixed-0x66a64be2fcdbda68",
             "licenseDeclared": "Apache-2.0",
             "name": "spec-up",
             "primaryPackagePurpose": "LIBRARY",
@@ -43624,7 +43629,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://time-rs.github.io",
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "time",
             "primaryPackagePurpose": "LIBRARY",
@@ -43665,7 +43670,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "time-core",
             "primaryPackagePurpose": "LIBRARY",
@@ -43685,7 +43690,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0x228f7909ddb3d37a",
+            "licenseConcluded": "LicenseRef-fixed-0x6068414dd218e682",
             "licenseDeclared": "NONE",
             "name": "time-macros",
             "primaryPackagePurpose": "LIBRARY",
@@ -47489,6 +47494,7 @@
             "name": "vinyl-sourcemaps-apply",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: indy-did-method/package-lock.json",
+            "supplier": "Organization: gulp-sourcemaps",
             "versionInfo": "0.2.1"
         },
         {
@@ -47584,7 +47590,7 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "LicenseRef-fixed-0xb81627e72d96773",
+            "licenseConcluded": "LicenseRef-fixed-0x58a896fb9cb08a8b",
             "licenseDeclared": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
             "name": "wasi",
             "primaryPackagePurpose": "LIBRARY",
@@ -53665,7 +53671,7 @@
             "versionInfo": "0.11.0"
         },
         {
-            "SPDXID": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "SPDXID": "SPDXRef-Filesystem-491dc94863a86bb9",
             "downloadLocation": "NOASSERTION",
             "filesAnalyzed": false,
             "licenseConcluded": "Apache-2.0 AND (Apache-2.0 AND CC-BY-4.0) AND CC-BY-4.0 AND BSD-3-Clause AND MIT",
@@ -145649,7 +145655,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-9abe4f6e08da87b1",
-            "relatedSpdxElement": "SPDXRef-Package-44bb553d2c74049d",
+            "relatedSpdxElement": "SPDXRef-Package-40717d7d1b666383",
             "relationshipType": "CONTAINS"
         },
         {
@@ -145764,7 +145770,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-e05f9a30122b6587",
-            "relatedSpdxElement": "SPDXRef-Package-643e0fc9d43ba8ff",
+            "relatedSpdxElement": "SPDXRef-Package-2a9c77f17cf18a7c",
             "relationshipType": "CONTAINS"
         },
         {
@@ -147558,6 +147564,86 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-14db31dd20aa0edc",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-2fd4bc898dc85a0d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-39d7675b08343661",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-50d811bf4dd776b3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-569f0b5eda55a872",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-6be4437c5b8824a3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-76286bca08777f4f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-7852a194783e9b0c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-93428b33f876d56c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-b07a46875414b882",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-b543fc0e403e8a2a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-d46ae03d9fcd931f",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-e25b9f848506c855",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-ec6d9bb215d1c985",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-f138a848f77ae9ee",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2316b0691bd629b1",
+            "relatedSpdxElement": "SPDXRef-Package-f8f2b9b5a165ade8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-232fa4abd36addb3",
             "relatedSpdxElement": "SPDXRef-Package-52d3c340f525c591",
             "relationshipType": "DEPENDS_ON"
@@ -148498,6 +148584,36 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-4fccc8454739f7d4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-8746868c5ae3922c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-9748c267f40db339",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-9fdf033d966b834b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-a9da7293c72a0016",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2a9c77f17cf18a7c",
+            "relatedSpdxElement": "SPDXRef-Package-d1e365464938b6e2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-2abf4b037d94c73e",
             "relatedSpdxElement": "SPDXRef-Package-2f7a6554d2a6c06",
             "relationshipType": "DEPENDS_ON"
@@ -149205,81 +149321,6 @@
         {
             "spdxElementId": "SPDXRef-Package-2d2b162ae86b3eec",
             "relatedSpdxElement": "SPDXRef-Package-fea70e7ffe6f7961",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-14db31dd20aa0edc",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-2fd4bc898dc85a0d",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-39d7675b08343661",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-50d811bf4dd776b3",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-569f0b5eda55a872",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-6be4437c5b8824a3",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-76286bca08777f4f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-7852a194783e9b0c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-93428b33f876d56c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-b07a46875414b882",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-b543fc0e403e8a2a",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-d46ae03d9fcd931f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-ec6d9bb215d1c985",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-f138a848f77ae9ee",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-2de5ab9cc5b5efe5",
-            "relatedSpdxElement": "SPDXRef-Package-f8f2b9b5a165ade8",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -151293,6 +151334,11 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-3f01a18273d6603d",
+            "relatedSpdxElement": "SPDXRef-Package-a5491022af21c74c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-3f9e60716731dca8",
             "relatedSpdxElement": "SPDXRef-Package-6e3e36138c330569",
             "relationshipType": "DEPENDS_ON"
@@ -151410,6 +151456,106 @@
         {
             "spdxElementId": "SPDXRef-Package-404c41d5f4a40cc3",
             "relatedSpdxElement": "SPDXRef-Package-d3a1e9bb6cce26cb",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-24441065c9261e5c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-2a676a558e29c490",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-361d73fe22c91946",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-3b20be02139b5f8c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-5a95af42b9221d5b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-5c085bdaba9cce86",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-66a7ffe440ae1c38",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-6c21266f247390ca",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-7552c561a4d14a9e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-7a3c5379a8ea172b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-7e54d18a1beb7f48",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-855ff131033076be",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-8823af5e3edf434b",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-9573f65434dc206c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-a2bc811aa9031d2c",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-a8333df646a479fa",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-b4e3838019d59f84",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-c8c27c656f39d77a",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-dc9567f3ee2d8171",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-40717d7d1b666383",
+            "relatedSpdxElement": "SPDXRef-Package-e035600152de3644",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -151940,106 +152086,6 @@
         {
             "spdxElementId": "SPDXRef-Package-44798fc769cf83",
             "relatedSpdxElement": "SPDXRef-Package-f2cbf0b3618b3580",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-24441065c9261e5c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-2a676a558e29c490",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-361d73fe22c91946",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-3b20be02139b5f8c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-5a95af42b9221d5b",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-5c085bdaba9cce86",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-66a7ffe440ae1c38",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-6c21266f247390ca",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-7552c561a4d14a9e",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-7a3c5379a8ea172b",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-7e54d18a1beb7f48",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-855ff131033076be",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-8823af5e3edf434b",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-9573f65434dc206c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-a2bc811aa9031d2c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-a8333df646a479fa",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-b4e3838019d59f84",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-c8c27c656f39d77a",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-dc9567f3ee2d8171",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-44bb553d2c74049d",
-            "relatedSpdxElement": "SPDXRef-Package-e035600152de3644",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -154353,11 +154399,6 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
-            "spdxElementId": "SPDXRef-Package-5b442bfab78af6f",
-            "relatedSpdxElement": "SPDXRef-Package-8c662d829933ae1f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
             "spdxElementId": "SPDXRef-Package-5b4c94110b9724ae",
             "relatedSpdxElement": "SPDXRef-Package-236db7fcfa7c4037",
             "relationshipType": "DEPENDS_ON"
@@ -155205,36 +155246,6 @@
         {
             "spdxElementId": "SPDXRef-Package-64049b7af064a8f2",
             "relatedSpdxElement": "SPDXRef-Package-f757aa588180631d",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-4fccc8454739f7d4",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-8746868c5ae3922c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-9748c267f40db339",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-9fdf033d966b834b",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-a9da7293c72a0016",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-643e0fc9d43ba8ff",
-            "relatedSpdxElement": "SPDXRef-Package-d1e365464938b6e2",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -159888,11 +159899,6 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
-            "spdxElementId": "SPDXRef-Package-8c662d829933ae1f",
-            "relatedSpdxElement": "SPDXRef-Package-a5491022af21c74c",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
             "spdxElementId": "SPDXRef-Package-8c9ee601df546f9d",
             "relatedSpdxElement": "SPDXRef-Package-10f4146269e86847",
             "relationshipType": "DEPENDS_ON"
@@ -160014,7 +160020,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Package-8f2adf4e8a5231b",
-            "relatedSpdxElement": "SPDXRef-Package-2de5ab9cc5b5efe5",
+            "relatedSpdxElement": "SPDXRef-Package-2316b0691bd629b1",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -162693,6 +162699,11 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-a667885319cbb316",
+            "relatedSpdxElement": "SPDXRef-Package-3f01a18273d6603d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-a6c6228dc438e8b5",
             "relatedSpdxElement": "SPDXRef-Package-65c0dc22fec38436",
             "relationshipType": "DEPENDS_ON"
@@ -164078,11 +164089,6 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
-            "spdxElementId": "SPDXRef-Package-b5c2f95ebf36138b",
-            "relatedSpdxElement": "SPDXRef-Package-8c662d829933ae1f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
             "spdxElementId": "SPDXRef-Package-b5ccac8e4d479b2c",
             "relatedSpdxElement": "SPDXRef-Package-2626c520c6c59a13",
             "relationshipType": "DEPENDS_ON"
@@ -164694,7 +164700,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Package-ba96e338ea565cac",
-            "relatedSpdxElement": "SPDXRef-Package-fbc481b25f59f4d4",
+            "relatedSpdxElement": "SPDXRef-Package-ea796ae1f1b9d629",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -167778,6 +167784,11 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-d69659c191350313",
+            "relatedSpdxElement": "SPDXRef-Package-3f01a18273d6603d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-d6b1bd21774857e5",
             "relatedSpdxElement": "SPDXRef-Package-2b932d9786b996ae",
             "relationshipType": "DEPENDS_ON"
@@ -167964,11 +167975,6 @@
         },
         {
             "spdxElementId": "SPDXRef-Package-d8f41d6f5f571d98",
-            "relatedSpdxElement": "SPDXRef-Package-5b442bfab78af6f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
-            "spdxElementId": "SPDXRef-Package-d8f41d6f5f571d98",
             "relatedSpdxElement": "SPDXRef-Package-5f68908123aa9a51",
             "relationshipType": "DEPENDS_ON"
         },
@@ -167984,7 +167990,7 @@
         },
         {
             "spdxElementId": "SPDXRef-Package-d8f41d6f5f571d98",
-            "relatedSpdxElement": "SPDXRef-Package-b5c2f95ebf36138b",
+            "relatedSpdxElement": "SPDXRef-Package-a667885319cbb316",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -168000,6 +168006,11 @@
         {
             "spdxElementId": "SPDXRef-Package-d8f41d6f5f571d98",
             "relatedSpdxElement": "SPDXRef-Package-c1eaeabd6f2b8fd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-d8f41d6f5f571d98",
+            "relatedSpdxElement": "SPDXRef-Package-d69659c191350313",
             "relationshipType": "DEPENDS_ON"
         },
         {
@@ -170313,6 +170324,11 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
+            "spdxElementId": "SPDXRef-Package-ea796ae1f1b9d629",
+            "relatedSpdxElement": "SPDXRef-Package-3f01a18273d6603d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
             "spdxElementId": "SPDXRef-Package-ea8efd407457d9b0",
             "relatedSpdxElement": "SPDXRef-Package-555cae9c0a41cb1b",
             "relationshipType": "DEPENDS_ON"
@@ -172108,11 +172124,6 @@
             "relationshipType": "DEPENDS_ON"
         },
         {
-            "spdxElementId": "SPDXRef-Package-fbc481b25f59f4d4",
-            "relatedSpdxElement": "SPDXRef-Package-8c662d829933ae1f",
-            "relationshipType": "DEPENDS_ON"
-        },
-        {
             "spdxElementId": "SPDXRef-Package-fbf2b939bc7d3897",
             "relatedSpdxElement": "SPDXRef-Package-649ffae7db450549",
             "relationshipType": "DEPENDS_ON"
@@ -172939,86 +172950,86 @@
         },
         {
             "spdxElementId": "SPDXRef-DOCUMENT",
-            "relatedSpdxElement": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "relatedSpdxElement": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relationshipType": "DESCRIBES"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-besu",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-bls-wrapper-python",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-blssignatures-rs",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-cli-rs",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-did-method",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-did-networks",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-hipe",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-node",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-node-container",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-node-monitor",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-plenum",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-shared-gha",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-shared-rs",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-test-automation",
             "relationshipType": "CONTAINS"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2e2800ae46a4521c",
+            "spdxElementId": "SPDXRef-Filesystem-491dc94863a86bb9",
             "relatedSpdxElement": "SPDXRef-LFDT-hyperledger-indy-indy-vdr",
             "relationshipType": "CONTAINS"
         },
