@@ -1,7 +1,7 @@
 {
     "SPDXID": "SPDXRef-DOCUMENT",
     "creationInfo": {
-        "created": "2026-10-13T19:47:28Z",
+        "created": "2026-11-05T11:16:34Z",
         "creators": [
             "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
             "Tool: trivy-dev",
@@ -18,7 +18,7 @@
     "hasExtractedLicensingInfos": [
         {
             "extractedText": "CC-BY-3.0 AND Swift-exception AND u-boot-exception-2.0 AND WxWindows-exception-3.1",
-            "licenseId": "LicenseRef-fixed-0x3457becd407e98b3"
+            "licenseId": "LicenseRef-fixed-0x1ae88e3b9eafc1da"
         },
         {
             "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
@@ -30,9 +30,9 @@
             "name": "Dual-license"
         }
     ],
-    "name": "/tmp/tmpyl59_0qf/code",
+    "name": "/tmp/tmpwz081qsw/code",
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/LFDT-Minokawa/2026-09/LFDT-LFDT-Minokawa-full/71f5d1d6-a622-45e1-8bd8-1fedb7f57900",
+    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/LFDT-Minokawa/2026-09/LFDT-LFDT-Minokawa-full/9f4ed2b3-1343-447e-b4d8-d02ae21927df",
     "packages": [
         {
             "SPDXID": "SPDXRef-Application-c779e97987106862",
@@ -364,7 +364,7 @@
             "versionInfo": "0.3.9"
         },
         {
-            "SPDXID": "SPDXRef-Package-4cebf2a34f98484a",
+            "SPDXID": "SPDXRef-Package-3a4d3d2ba6d66f6c",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -374,6 +374,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/midnight-ntwrk/artifacts#readme",
             "licenseConcluded": "NONE",
             "licenseDeclared": "NONE",
             "name": "@midnight-ntwrk/ledger",
@@ -382,7 +383,8 @@
             "versionInfo": "4.0.0"
         },
         {
-            "SPDXID": "SPDXRef-Package-91cd3f8c84bb9d5",
+            "SPDXID": "SPDXRef-Package-9e0d2451e124e83e",
+            "description": "Package for setting the network ID of runtime and ledger WASM API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -392,6 +394,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/midnight-ntwrk/artifacts#readme",
             "licenseConcluded": "Apache-2.0",
             "licenseDeclared": "Apache-2.0",
             "name": "@midnight-ntwrk/midnight-js-network-id",
@@ -410,11 +413,13 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "NONE",
+            "homepage": "https://github.com/midnightntwrk/midnight-ledger#readme",
+            "licenseConcluded": "Apache-2.0",
             "licenseDeclared": "NONE",
             "name": "@midnightntwrk/onchain-runtime-v4",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/runtime/package-lock.json",
+            "supplier": "Organization: midnightntwrk",
             "versionInfo": "4.0.0-rc.3"
         },
         {
@@ -524,6 +529,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-d32a80679ce5c2d0",
+            "description": "Typescript definitions for npm registry content",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -533,11 +539,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/types#readme",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@npm/types",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "1.0.2"
         },
         {
@@ -584,6 +592,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-6cb9a70b83683d5b",
+            "description": "filesystem utilities for the npm cli",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -593,11 +602,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/fs#readme",
             "licenseConcluded": "ISC AND MIT",
             "licenseDeclared": "ISC",
             "name": "@npmcli/fs",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "5.0.0"
         },
         {
@@ -833,6 +844,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-7844904034ebe408",
+            "description": "Polyfill of future proposal for `util.parseArgs()`",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -842,11 +854,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/pkgjs/parseargs#readme",
             "licenseConcluded": "Apache-2.0 AND MIT",
             "licenseDeclared": "Apache-2.0 AND MIT",
             "name": "@pkgjs/parseargs",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: pkgjs",
             "versionInfo": "0.11.0"
         },
         {
@@ -862,7 +876,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-android-arm-eabi",
             "primaryPackagePurpose": "LIBRARY",
@@ -883,7 +897,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-android-arm-eabi",
             "primaryPackagePurpose": "LIBRARY",
@@ -904,7 +918,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-android-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -925,7 +939,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-android-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -946,7 +960,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-darwin-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -967,7 +981,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-darwin-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -988,7 +1002,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-darwin-x64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1009,7 +1023,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-darwin-x64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1030,7 +1044,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-freebsd-x64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1051,7 +1065,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-freebsd-x64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1072,7 +1086,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm-gnueabihf",
             "primaryPackagePurpose": "LIBRARY",
@@ -1093,7 +1107,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm-gnueabihf",
             "primaryPackagePurpose": "LIBRARY",
@@ -1114,7 +1128,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1135,7 +1149,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1156,7 +1170,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm64-musl",
             "primaryPackagePurpose": "LIBRARY",
@@ -1177,7 +1191,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-arm64-musl",
             "primaryPackagePurpose": "LIBRARY",
@@ -1198,7 +1212,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-ppc64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1219,7 +1233,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-ppc64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1240,7 +1254,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-s390x-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1261,7 +1275,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-s390x-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1282,7 +1296,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-x64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1303,7 +1317,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-x64-gnu",
             "primaryPackagePurpose": "LIBRARY",
@@ -1324,7 +1338,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-x64-musl",
             "primaryPackagePurpose": "LIBRARY",
@@ -1345,7 +1359,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-linux-x64-musl",
             "primaryPackagePurpose": "LIBRARY",
@@ -1366,7 +1380,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-openharmony-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1387,7 +1401,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-openharmony-arm64",
             "primaryPackagePurpose": "LIBRARY",
@@ -1408,7 +1422,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-win32-arm64-msvc",
             "primaryPackagePurpose": "LIBRARY",
@@ -1429,7 +1443,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-win32-arm64-msvc",
             "primaryPackagePurpose": "LIBRARY",
@@ -1450,7 +1464,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-win32-x64-msvc",
             "primaryPackagePurpose": "LIBRARY",
@@ -1471,7 +1485,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://rolldown.rs/",
-            "licenseConcluded": "NONE",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@rolldown/binding-win32-x64-msvc",
             "primaryPackagePurpose": "LIBRARY",
@@ -1502,6 +1516,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-950ede34d7558d52",
+            "description": "Base library for Sigstore",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1511,11 +1526,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/sigstore/sigstore-js/tree/main/packages/core#readme",
             "licenseConcluded": "Apache-2.0",
             "licenseDeclared": "Apache-2.0",
             "name": "@sigstore/core",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: sigstore",
             "versionInfo": "3.2.1"
         },
         {
@@ -1583,6 +1600,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-5c9ecbe40bca005e",
+            "description": "Verification of Sigstore signatures",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1592,11 +1610,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/sigstore/sigstore-js/tree/main/packages/verify#readme",
             "licenseConcluded": "Apache-2.0",
             "licenseDeclared": "Apache-2.0",
             "name": "@sigstore/verify",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: sigstore",
             "versionInfo": "3.1.1"
         },
         {
@@ -1748,6 +1768,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-52c80d9f133a90f2",
+            "description": "TypeScript definitions for cacache",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1757,15 +1778,18 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "NONE",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/cacache",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@types/cacache",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "20.0.1"
         },
         {
             "SPDXID": "SPDXRef-Package-db140c7c81f11846",
+            "description": "TypeScript definitions for fs-extra",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1775,15 +1799,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/fs-extra",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/fs-extra",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "11.0.4"
         },
         {
             "SPDXID": "SPDXRef-Package-fdc87277d2db20f9",
+            "description": "TypeScript definitions for jsonfile",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1793,11 +1820,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/jsonfile",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/jsonfile",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "6.1.4"
         },
         {
@@ -1865,6 +1894,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-cfa5e1c566f6c4a3",
+            "description": "TypeScript definitions for node-fetch",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1874,15 +1904,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-fetch",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/node-fetch",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "2.6.13"
         },
         {
             "SPDXID": "SPDXRef-Package-d0af8dedcf143927",
+            "description": "TypeScript definitions for npm-package-arg",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1892,15 +1925,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npm-package-arg",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/npm-package-arg",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "6.1.4"
         },
         {
             "SPDXID": "SPDXRef-Package-a5e1281ef1038797",
+            "description": "TypeScript definitions for npm-registry-fetch",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1910,15 +1946,18 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "NONE",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npm-registry-fetch",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@types/npm-registry-fetch",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "8.0.9"
         },
         {
             "SPDXID": "SPDXRef-Package-e8a66bec468966f7",
+            "description": "TypeScript definitions for @npmcli/arborist",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1928,15 +1967,18 @@
                 }
             ],
             "filesAnalyzed": false,
-            "licenseConcluded": "NONE",
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmcli__arborist",
+            "licenseConcluded": "MIT",
             "licenseDeclared": "NONE",
             "name": "@types/npmcli__arborist",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "5.6.11"
         },
         {
             "SPDXID": "SPDXRef-Package-30783d9fa536b35f",
+            "description": "TypeScript definitions for @npmcli/package-json",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1946,15 +1988,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmcli__package-json",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/npmcli__package-json",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "4.0.4"
         },
         {
             "SPDXID": "SPDXRef-Package-3ad98681fb395c5",
+            "description": "TypeScript definitions for npmlog",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1964,15 +2009,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/npmlog",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/npmlog",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "7.0.0"
         },
         {
             "SPDXID": "SPDXRef-Package-c3e5f3d0eba9efe0",
+            "description": "TypeScript definitions for object-inspect",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -1982,15 +2030,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/object-inspect",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/object-inspect",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/runtime/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "1.13.0"
         },
         {
             "SPDXID": "SPDXRef-Package-dd63cdb2d42b8bf8",
+            "description": "TypeScript definitions for pacote",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2000,15 +2051,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pacote",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/pacote",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "11.1.8"
         },
         {
             "SPDXID": "SPDXRef-Package-abccca2324d171ea",
+            "description": "TypeScript definitions for ssri",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2018,15 +2072,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ssri",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@types/ssri",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: DefinitelyTyped",
             "versionInfo": "7.1.5"
         },
         {
             "SPDXID": "SPDXRef-Package-a897486b3f194af5",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2036,15 +2093,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-android-arm-eabi",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-bb5083d0cd5c1824",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2054,15 +2114,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-android-arm64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-4914651c386b7378",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2072,15 +2135,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-darwin-arm64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-a31a1d928d06a31d",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2090,15 +2156,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-darwin-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-8930f520eabe3eec",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2108,15 +2177,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-freebsd-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-39d0db0785adb346",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2126,15 +2198,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-arm-gnueabihf",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-a183ac5779edbe13",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2144,15 +2219,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-arm-musleabihf",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-c29472fa655c5f20",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2162,15 +2240,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-arm64-gnu",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-1b3b5afb76f00f14",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2180,15 +2261,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-arm64-musl",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-f65ce859c3b341f0",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2198,15 +2282,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-ppc64-gnu",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-2e91c06414f50fc3",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2216,15 +2303,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-riscv64-gnu",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-f655a13175484c90",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2234,15 +2324,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-riscv64-musl",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-8a16c20af37d7194",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2252,15 +2345,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-s390x-gnu",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-58dd3e12bbf38327",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2270,15 +2366,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-x64-gnu",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-70662cee807d69a9",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2288,15 +2387,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-linux-x64-musl",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-c525ac0ec541fe59",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2306,15 +2408,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-wasm32-wasi",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-ddd0426cee44efde",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2324,15 +2429,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-win32-arm64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-6b0e15a78d31241c",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2342,15 +2450,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-win32-ia32-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-5ecaa551172d4ca",
+            "description": "UnRS Resolver Node API",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2360,15 +2471,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unrs/unrs-resolver",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "@unrs/resolver-binding-win32-x64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: UnRS",
             "versionInfo": "1.11.1"
         },
         {
             "SPDXID": "SPDXRef-Package-9b9fbeff7a778a42",
+            "description": "Visual Studio Code extension package signing and verification binary for alpine-arm64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2378,6 +2492,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-alpine-arm64",
@@ -2387,6 +2502,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-c63a233f06c0f787",
+            "description": "Visual Studio Code extension package signing and verification binary for alpine-x64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2396,6 +2512,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-alpine-x64",
@@ -2405,6 +2522,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-c1f1a41d9c3bcbfc",
+            "description": "Visual Studio Code extension package signing and verification binary for darwin-arm64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2414,6 +2532,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-darwin-arm64",
@@ -2423,6 +2542,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-5da948cb66e2066b",
+            "description": "Visual Studio Code extension package signing and verification binary for darwin-x64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2432,6 +2552,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-darwin-x64",
@@ -2441,6 +2562,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-cad2dbc7b32e93a1",
+            "description": "Visual Studio Code extension package signing and verification binary for linux-arm",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2450,6 +2572,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-linux-arm",
@@ -2459,6 +2582,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-e8cd9e9a29e7b233",
+            "description": "Visual Studio Code extension package signing and verification binary for linux-arm64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2468,6 +2592,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-linux-arm64",
@@ -2477,6 +2602,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-4d5f68554f13248d",
+            "description": "Visual Studio Code extension package signing and verification binary for linux-x64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2486,6 +2612,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-linux-x64",
@@ -2495,6 +2622,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-3052bfb2e53b2f90",
+            "description": "Visual Studio Code extension package signing and verification binary for win32-arm64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2504,6 +2632,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-win32-arm64",
@@ -2513,6 +2642,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-dcffbf3086edbd11",
+            "description": "Visual Studio Code extension package signing and verification binary for win32-x64",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2522,6 +2652,7 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/Microsoft/node-vscode-sign",
             "licenseConcluded": "LicenseRef-scancode-ms-xamarin-uitest3.2.0 AND LicenseRef-scancode-unknown-license-reference",
             "licenseDeclared": "LicenseRef-scancode-ms-xamarin-uitest3.2.0",
             "name": "@vscode/vsce-sign-win32-x64",
@@ -2741,6 +2872,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-71479b62e1c3509e",
+            "description": "JavaScript package binary linker",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2750,11 +2882,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/bin-links#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "bin-links",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "6.0.0"
         },
         {
@@ -2927,6 +3061,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-a8b6074bdd0e2339",
+            "description": "Used in npm for command line application support",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -2936,11 +3071,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/cmd-shim#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "cmd-shim",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "8.0.0"
         },
         {
@@ -3029,6 +3166,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-48bad84381f30141",
+            "description": "A JavaScript compacting middleware for express",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -3038,11 +3176,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/serby/compact#readme",
             "licenseConcluded": "Apache-2.0",
             "licenseDeclared": "Apache-2.0",
             "name": "compact",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: Paul Serby",
             "versionInfo": "0.2.11"
         },
         {
@@ -3149,6 +3289,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-9d14045d3e1b534c",
+            "description": "Recursive object extending",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -3158,11 +3299,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/unclechu/node-deep-extend",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "deep-extend",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/editor-support/vsc/compact/yarn.lock",
+            "supplier": "Organization: Viacheslav Lotsmanov",
             "versionInfo": "0.6.0"
         },
         {
@@ -4066,6 +4209,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-d427311f889c41a7",
+            "description": "Nested/recursive `.gitignore`/`.npmignore` parsing and filtering.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4075,11 +4219,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/ignore-walk#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "ignore-walk",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "8.0.0"
         },
         {
@@ -4188,6 +4334,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-9c92a59db459e707",
+            "description": "Check if the character represented by a given Unicode code point is fullwidth",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4197,11 +4344,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/sindresorhus/is-fullwidth-code-point#readme",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "is-fullwidth-code-point",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: Sindre Sorhus",
             "versionInfo": "3.0.0"
         },
         {
@@ -4479,6 +4628,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-3596fb3d21c74347",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4488,15 +4638,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-darwin-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-8ec489561ff660e3",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4506,15 +4659,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-darwin-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-697192b6515df3d7",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4524,15 +4680,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-freebsd-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-e8085d16dd481f9b",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4542,15 +4701,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-freebsd-x64",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-c5f6a1e06b668689",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4560,15 +4722,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-linux-arm-gnueabihf",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-d572265ccfd8a545",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4578,11 +4743,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-linux-arm-gnueabihf",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
@@ -4629,6 +4796,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-2b4f3a600b56883c",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4638,15 +4806,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-linux-arm64-musl",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-c17a3e0728fb5133",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4656,11 +4827,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-linux-arm64-musl",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
@@ -4749,6 +4922,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-5fb55f12dca51a7b",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4758,15 +4932,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-win32-arm64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-7607942995c72f83",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4776,15 +4953,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-win32-arm64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-22839fedf1192195",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4794,15 +4974,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-win32-x64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/test-src-maps/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
             "SPDXID": "SPDXRef-Package-9d196d1261831994",
+            "description": "A CSS parser, transformer, and minifier written in Rust",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -4812,11 +4995,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/parcel-bundler/lightningcss#readme",
             "licenseConcluded": "MPL-2.0",
             "licenseDeclared": "MPL-2.0",
             "name": "lightningcss-win32-x64-msvc",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Parcel",
             "versionInfo": "1.33.0"
         },
         {
@@ -5304,6 +5489,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-4d527042879e4a22",
+            "description": "Option parsing for Node, supporting types, shorthands, etc. Used by npm.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5313,11 +5499,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/nopt#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "nopt",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "9.0.0"
         },
         {
@@ -5343,6 +5531,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-73ce0e245f2c6b66",
+            "description": "Check the engines and platform fields in package.json",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5352,11 +5541,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/npm-install-checks#readme",
             "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause AND BSD-2-Clause",
             "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
             "name": "npm-install-checks",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "8.0.0"
         },
         {
@@ -5382,6 +5573,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-5075491bd54d9f09",
+            "description": "Parse the things that can be arguments to `npm install`",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5391,11 +5583,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/npm-package-arg",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "npm-package-arg",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "13.0.2"
         },
         {
@@ -5421,6 +5615,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-4ad3aaa90c373d13",
+            "description": "Resolves a matching manifest from a package metadata document according to standard npm semver resolution rules.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5430,11 +5625,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/npm-pick-manifest#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "npm-pick-manifest",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "11.0.3"
         },
         {
@@ -5628,6 +5825,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-726ef4284938ac1d",
+            "description": "just emit 'log' events on the process object",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5637,11 +5835,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/proc-log#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "proc-log",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "6.1.0"
         },
         {
@@ -5770,6 +5970,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-d2e85e5a224b705",
+            "description": "Figure out what a cmd-shim is pointing at. This acts as the equivalent of fs.readlink.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5779,11 +5980,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/read-cmd-shim#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "read-cmd-shim",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "6.0.0"
         },
         {
@@ -5977,6 +6180,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-285a18e4c1c83d51",
+            "description": "smart-buffer is a Buffer wrapper that adds automatic read & write offset tracking, string operations, data insertions, and more.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -5986,15 +6190,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/JoshGlazebrook/smart-buffer/",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "smart-buffer",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: Josh Glazebrook",
             "versionInfo": "4.2.0"
         },
         {
             "SPDXID": "SPDXRef-Package-faf2445e6c0d6f4a",
+            "description": "Fully featured SOCKS proxy client supporting SOCKSv4, SOCKSv4a, and SOCKSv5. Includes Bind and Associate functionality.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6004,15 +6211,18 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/JoshGlazebrook/socks/",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "socks",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: Josh Glazebrook",
             "versionInfo": "2.8.7"
         },
         {
             "SPDXID": "SPDXRef-Package-8600b1d8b6d1b43c",
+            "description": "A SOCKS proxy `http.Agent` implementation for HTTP and HTTPS",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6022,11 +6232,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/TooTallNate/proxy-agents#readme",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "socks-proxy-agent",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: Nathan Rajlich",
             "versionInfo": "8.0.5"
         },
         {
@@ -6084,7 +6296,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/kemitchell/spdx-exceptions.json#readme",
-            "licenseConcluded": "LicenseRef-fixed-0x3457becd407e98b3",
+            "licenseConcluded": "LicenseRef-fixed-0x1ae88e3b9eafc1da",
             "licenseDeclared": "CC-BY-3.0",
             "name": "spdx-exceptions",
             "primaryPackagePurpose": "LIBRARY",
@@ -6094,6 +6306,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-26adb9abfc4f04c2",
+            "description": "parse SPDX license expressions",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6103,11 +6316,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/jslicense/spdx-expression-parse.js#readme",
             "licenseConcluded": "MIT",
             "licenseDeclared": "MIT",
             "name": "spdx-expression-parse",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: jslicense",
             "versionInfo": "3.0.1"
         },
         {
@@ -6298,6 +6513,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-7bd1fbe03b0ec30c",
+            "description": "Console test runner - writes to stdin, reads stdout",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6312,6 +6528,7 @@
             "name": "tests",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/tests-e2e/yarn.lock",
+            "supplier": "Organization: Fedor Sheremetyev",
             "versionInfo": "1.0.0"
         },
         {
@@ -6652,6 +6869,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-3f1f460ccb525f60",
+            "description": "Give me a string and I'll tell you if it's a valid npm package name",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6661,11 +6879,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/npm/validate-npm-package-name",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "validate-npm-package-name",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: npm",
             "versionInfo": "7.0.2"
         },
         {
@@ -6691,6 +6911,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-f8828861c64c1e2c",
+            "description": "Given a path string, return a generator that walks up the path, emitting each dirname.",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6700,11 +6921,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/isaacs/walk-up-path#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "walk-up-path",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: isaacs",
             "versionInfo": "4.0.0"
         },
         {
@@ -6856,6 +7079,7 @@
         },
         {
             "SPDXID": "SPDXRef-Package-9463e91f8a525625",
+            "description": "the mighty option parser used by yargs",
             "downloadLocation": "NOASSERTION",
             "externalRefs": [
                 {
@@ -6865,11 +7089,13 @@
                 }
             ],
             "filesAnalyzed": false,
+            "homepage": "https://github.com/yargs/yargs-parser#readme",
             "licenseConcluded": "ISC",
             "licenseDeclared": "ISC",
             "name": "yargs-parser",
             "primaryPackagePurpose": "LIBRARY",
             "sourceInfo": "package found in: compact/nix/dry-install/package-lock.json",
+            "supplier": "Organization: yargs",
             "versionInfo": "21.1.1"
         },
         {
@@ -6894,7 +7120,7 @@
             "versionInfo": "3.1.1"
         },
         {
-            "SPDXID": "SPDXRef-Filesystem-5d9b5d32c90cd93c",
+            "SPDXID": "SPDXRef-Filesystem-2302900e36430bce",
             "downloadLocation": "NOASSERTION",
             "filesAnalyzed": false,
             "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND (Apache-2.0 AND MIT) AND ISC AND MIT",
@@ -43850,12 +44076,12 @@
         },
         {
             "spdxElementId": "SPDXRef-Application-f0c70af2410f69dd",
-            "relatedSpdxElement": "SPDXRef-Package-4cebf2a34f98484a",
+            "relatedSpdxElement": "SPDXRef-Package-3a4d3d2ba6d66f6c",
             "relationshipType": "CONTAINS"
         },
         {
             "spdxElementId": "SPDXRef-Application-f0c70af2410f69dd",
-            "relatedSpdxElement": "SPDXRef-Package-91cd3f8c84bb9d5",
+            "relatedSpdxElement": "SPDXRef-Package-9e0d2451e124e83e",
             "relationshipType": "CONTAINS"
         },
         {
@@ -45810,11 +46036,11 @@
         },
         {
             "spdxElementId": "SPDXRef-DOCUMENT",
-            "relatedSpdxElement": "SPDXRef-Filesystem-5d9b5d32c90cd93c",
+            "relatedSpdxElement": "SPDXRef-Filesystem-2302900e36430bce",
             "relationshipType": "DESCRIBES"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-5d9b5d32c90cd93c",
+            "spdxElementId": "SPDXRef-Filesystem-2302900e36430bce",
             "relatedSpdxElement": "SPDXRef-LFDT-LFDT-Minokawa-compact",
             "relationshipType": "CONTAINS"
         },
