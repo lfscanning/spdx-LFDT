@@ -1,7 +1,7 @@
 {
     "SPDXID": "SPDXRef-DOCUMENT",
     "creationInfo": {
-        "created": "2026-11-05T11:16:34Z",
+        "created": "2026-11-09T18:37:05Z",
         "creators": [
             "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
             "Tool: trivy-dev",
@@ -16,16 +16,16 @@
     "hasExtractedLicensingInfos": [
         {
             "extractedText": "CC-BY-3.0 AND Swift-exception AND u-boot-exception-2.0 AND WxWindows-exception-3.1",
-            "licenseId": "LicenseRef-fixed-0x1ae88e3b9eafc1da"
+            "licenseId": "LicenseRef-fixed-0x228d18bd536daf28"
         },
         {
             "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
             "licenseId": "LicenseRef-NOASSERTION"
         }
     ],
-    "name": "/tmp/tmpwz081qsw/code",
+    "name": "/tmp/tmpud2661wc/code",
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmpwz081qsw/code-74632a32-9150-409f-a937-c9fb6567f46f",
+    "documentNamespace": "http://trivy.dev/filesystem//tmp/tmpud2661wc/code-5a32ae08-3ce7-49e5-bc62-edc2229b4df5",
     "packages": [
         {
             "SPDXID": "SPDXRef-Application-c779e97987106862",
@@ -6289,7 +6289,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/kemitchell/spdx-exceptions.json#readme",
-            "licenseConcluded": "LicenseRef-fixed-0x1ae88e3b9eafc1da",
+            "licenseConcluded": "LicenseRef-fixed-0x228d18bd536daf28",
             "licenseDeclared": "CC-BY-3.0",
             "name": "spdx-exceptions",
             "primaryPackagePurpose": "LIBRARY",
@@ -7113,7 +7113,7 @@
             "versionInfo": "3.1.1"
         },
         {
-            "SPDXID": "SPDXRef-Filesystem-2302900e36430bce",
+            "SPDXID": "SPDXRef-Filesystem-16a9048e1de895f7",
             "downloadLocation": "NOASSERTION",
             "filesAnalyzed": false,
             "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND (Apache-2.0 AND MIT) AND ISC AND MIT",
@@ -9617,11 +9617,11 @@
         },
         {
             "spdxElementId": "SPDXRef-DOCUMENT",
-            "relatedSpdxElement": "SPDXRef-Filesystem-2302900e36430bce",
+            "relatedSpdxElement": "SPDXRef-Filesystem-16a9048e1de895f7",
             "relationshipType": "DESCRIBES"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2302900e36430bce",
+            "spdxElementId": "SPDXRef-Filesystem-16a9048e1de895f7",
             "relatedSpdxElement": "SPDXRef-LFDT-LFDT-Minokawa-compact",
             "relationshipType": "CONTAINS"
         }
