@@ -1,7 +1,7 @@
 {
     "SPDXID": "SPDXRef-DOCUMENT",
     "creationInfo": {
-        "created": "2026-11-05T11:16:34Z",
+        "created": "2026-11-09T18:37:05Z",
         "creators": [
             "Tool: protobom-v0.0.0-20251208165814-8d4ed90bb0f9+dirty",
             "Tool: trivy-dev",
@@ -18,7 +18,7 @@
     "hasExtractedLicensingInfos": [
         {
             "extractedText": "CC-BY-3.0 AND Swift-exception AND u-boot-exception-2.0 AND WxWindows-exception-3.1",
-            "licenseId": "LicenseRef-fixed-0x1ae88e3b9eafc1da"
+            "licenseId": "LicenseRef-fixed-0x228d18bd536daf28"
         },
         {
             "extractedText": "This license represents a situation where a license for a component could not be found or concluded",
@@ -30,9 +30,9 @@
             "name": "Dual-license"
         }
     ],
-    "name": "/tmp/tmpwz081qsw/code",
+    "name": "/tmp/tmpud2661wc/code",
     "spdxVersion": "SPDX-2.3",
-    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/LFDT-Minokawa/2026-09/LFDT-LFDT-Minokawa-full/9f4ed2b3-1343-447e-b4d8-d02ae21927df",
+    "documentNamespace": "https://github.com/lfscanning/spdx-LFDT/LFDT-Minokawa/2026-09/LFDT-LFDT-Minokawa-full/11be8b78-3dea-4105-a91e-917d92365c5c",
     "packages": [
         {
             "SPDXID": "SPDXRef-Application-c779e97987106862",
@@ -6296,7 +6296,7 @@
             ],
             "filesAnalyzed": false,
             "homepage": "https://github.com/kemitchell/spdx-exceptions.json#readme",
-            "licenseConcluded": "LicenseRef-fixed-0x1ae88e3b9eafc1da",
+            "licenseConcluded": "LicenseRef-fixed-0x228d18bd536daf28",
             "licenseDeclared": "CC-BY-3.0",
             "name": "spdx-exceptions",
             "primaryPackagePurpose": "LIBRARY",
@@ -7120,7 +7120,7 @@
             "versionInfo": "3.1.1"
         },
         {
-            "SPDXID": "SPDXRef-Filesystem-2302900e36430bce",
+            "SPDXID": "SPDXRef-Filesystem-16a9048e1de895f7",
             "downloadLocation": "NOASSERTION",
             "filesAnalyzed": false,
             "licenseConcluded": "Apache-2.0 AND (Apache-2.0 OR MIT) AND (Apache-2.0 AND MIT) AND ISC AND MIT",
@@ -46036,11 +46036,11 @@
         },
         {
             "spdxElementId": "SPDXRef-DOCUMENT",
-            "relatedSpdxElement": "SPDXRef-Filesystem-2302900e36430bce",
+            "relatedSpdxElement": "SPDXRef-Filesystem-16a9048e1de895f7",
             "relationshipType": "DESCRIBES"
         },
         {
-            "spdxElementId": "SPDXRef-Filesystem-2302900e36430bce",
+            "spdxElementId": "SPDXRef-Filesystem-16a9048e1de895f7",
             "relatedSpdxElement": "SPDXRef-LFDT-LFDT-Minokawa-compact",
             "relationshipType": "CONTAINS"
         },
